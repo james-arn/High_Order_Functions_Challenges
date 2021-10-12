@@ -34,3 +34,24 @@ console.log(myAdd(5, 1, 2));
 let myArr = [1,2,3,4,5];
 const map1 = myArr.map(x => x * 3);
 console.log(map1)
+
+//challenge 4 - 
+const multiply = (a,b) => {
+    return a*b
+}
+const add = (a,b) => {
+    return a+b
+}
+const divide = (a,b) => {
+    return a/b
+}
+const subtract = (a,b) => {
+    return a-b
+}
+const doMath = (num1) => {
+    return (num2, fn) => {
+        return fn(num1, num2)
+    }
+}
+doMath(add)
+fn (5,2)
